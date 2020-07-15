@@ -1,0 +1,8 @@
+
+./filebeat -e -c filebeat.yml -d "publish"
+
+filebeat setup --pipelines --modules nginx,system
+
+bin/logstash -f first-pipeline.conf --config.test_and_exit
+
+bin/logstash -f first-pipeline.conf --config.reload.automatic

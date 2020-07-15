@@ -1,0 +1,34 @@
+2020-07-13 12:52:12.938  - INFO [  restartedMain] com.elk.DemoApplication                  : Starting DemoApplication on S0DNRU3OYNTKLP7 with PID 10152 (F:\java_project_2020\elk\target\classes started by Administrator in F:\java_project_2020\elk) 
+2020-07-13 12:52:12.939  - INFO [  restartedMain] com.elk.DemoApplication                  : The following profiles are active: dev 
+2020-07-13 12:52:13.127  - INFO [  restartedMain] boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 10000 (http) 
+2020-07-13 12:52:13.128  - INFO [  restartedMain] g.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-10000"] 
+2020-07-13 12:52:13.128  - INFO [  restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat] 
+2020-07-13 12:52:13.128  - INFO [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36] 
+2020-07-13 12:52:13.139  - INFO [  restartedMain] e.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext 
+2020-07-13 12:52:13.139  - INFO [  restartedMain] ntext.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 198 ms 
+2020-07-13 12:52:13.171  - INFO [  restartedMain] duling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor' 
+2020-07-13 12:52:13.198  - INFO [  restartedMain] s.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729 
+2020-07-13 12:52:13.203  - INFO [  restartedMain] g.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-10000"] 
+2020-07-13 12:52:13.206  - INFO [  restartedMain] boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 10000 (http) with context path '' 
+2020-07-13 12:52:13.210  - INFO [  restartedMain] com.elk.DemoApplication                  : Started DemoApplication in 0.323 seconds (JVM running for 122.594) 
+2020-07-13 12:52:13.211  - INFO [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged 
+2020-07-13 12:52:25.449  - INFO [  restartedMain] com.elk.DemoApplication                  : Starting DemoApplication on S0DNRU3OYNTKLP7 with PID 3384 (F:\java_project_2020\elk\target\classes started by Administrator in F:\java_project_2020\elk) 
+2020-07-13 12:52:25.457  - INFO [  restartedMain] com.elk.DemoApplication                  : The following profiles are active: dev 
+2020-07-13 12:52:25.502  - INFO [  restartedMain] nv.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2020-07-13 12:52:25.502  - INFO [  restartedMain] nv.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2020-07-13 12:52:26.172  - INFO [  restartedMain] boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 10000 (http) 
+2020-07-13 12:52:26.179  - INFO [  restartedMain] g.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-10000"] 
+2020-07-13 12:52:26.179  - INFO [  restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat] 
+2020-07-13 12:52:26.179  - INFO [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36] 
+2020-07-13 12:52:26.234  - INFO [  restartedMain] e.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext 
+2020-07-13 12:52:26.234  - INFO [  restartedMain] ntext.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 732 ms 
+2020-07-13 12:52:26.363  - INFO [  restartedMain] duling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor' 
+2020-07-13 12:52:26.466  - INFO [  restartedMain] s.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729 
+2020-07-13 12:52:26.476  - INFO [  restartedMain] g.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-10000"] 
+2020-07-13 12:52:26.492  - INFO [  restartedMain] boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 10000 (http) with context path '' 
+2020-07-13 12:52:26.501  - INFO [  restartedMain] com.elk.DemoApplication                  : Started DemoApplication in 1.538 seconds (JVM running for 2.405) 
+2020-07-13 12:52:30.943  - INFO [io-10000-exec-1] e.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2020-07-13 12:52:30.943  - INFO [io-10000-exec-1] gframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet' 
+2020-07-13 12:52:30.947  - INFO [io-10000-exec-1] gframework.web.servlet.DispatcherServlet : Completed initialization in 4 ms 
+2020-07-13 12:52:30.968  - INFO [io-10000-exec-1] com.elk.controller.ChargeController      : 用户充值:100 
+2020-07-13 12:54:09.254  - INFO [     Thread-120] duling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor' 

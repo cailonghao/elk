@@ -1,0 +1,13 @@
+version: "2"
+services:
+  logs-server:
+    image: elk-logs:latest
+    ports:
+      - "10000:10000"
+    networks:
+      - sbcloud
+    volumes:
+    - "/usr/local/src/logs:/usr/local/logs"
+networks:
+  sbcloud:
+
